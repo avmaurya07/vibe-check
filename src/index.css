@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .quiz-option {
+    @apply p-3 rounded-lg border-2 cursor-pointer transition-all duration-200 hover:shadow-md;
+  }
+  
+  .quiz-option.selected {
+    @apply border-purple-500 bg-purple-100;
+  }
+  
+  .emoji-button {
+    @apply text-4xl cursor-pointer transition-transform hover:scale-125;
+  }
+  
+  .vibe-card {
+    @apply rounded-xl p-6 shadow-lg text-center transition-all duration-300 hover:shadow-xl;
+  }
+  
+  .share-button {
+    @apply rounded-full p-3 mx-1 transition-transform hover:scale-110;
+  }
+}
+
+body {
+  @apply bg-gradient-to-br from-purple-50 to-blue-50 min-h-screen;
+}
+
+.result-emoji {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
