@@ -1,0 +1,63 @@
+Project Title: Vibe Check - Real-Time Personality Quiz App
+
+Project Overview:
+"Vibe Check" is a fun, shareable personality quiz app that analyzes users' answers to determine their current "vibe" (e.g., Chill Lo-Fi Cat, Cosmic Meme Overlord). After completing the quiz, users are shown their result along with real-time statistics showing how many users got each vibe.
+
+Key Features:
+- 5–7 quirky, personality-based quiz questions
+- Based on answers, a “vibe” is assigned with a name, color, emoji, and description
+- Real-time percentage breakdown of how many people fall under each vibe category
+- Shareable result pages with emojis, GIFs, and social media buttons
+- Live updates of results using Firebase or Supabase
+
+Tech Stack:
+Frontend:
+- React.js (for dynamic UI)
+- Tailwind CSS (for quick, beautiful styling)
+
+Backend:
+- Firebase Realtime Database or Supabase (for storing quiz responses and live analytics)
+- Optional: Firebase Authentication (if user login or leaderboards are needed)
+
+Deployment:
+- Vercel or Netlify (for free and fast deployment)
+
+UI/UX Design Notes:
+- Use emoji sliders or radio buttons for quiz questions
+- Result screen should have:
+  - Vibe title (e.g., “Chaos Goblin Energy”)
+  - Description (fun, meme-style)
+  - Emojis or GIFs
+  - Real-time bar/pie chart showing result distribution
+- Option to retake quiz or share results
+
+Example Quiz Questions:
+1. What’s your ideal weekend plan?
+2. Pick a song that describes your mood today
+3. Choose a snack right now:
+4. What’s your favorite aesthetic?
+5. How do you usually text your friends?
+6. If life was a game, you would be...
+
+Sample Vibe Results:
+- 🌈 Chill Lo-Fi Cat – You're relaxed, artsy, and always have chill music in the background.
+- 🚀 Cosmic Meme Overlord – You operate in chaos but somehow always land on your feet.
+- 🍄 Cottagecore Dreamer – Soft, nature-loving, and forever stuck in a Pinterest board.
+- 🔥 Chaos Goblin Energy – You bring unpredictable vibes and dramatic flair.
+- 📚 Deep Thinker Mode – Always introspective, analyzing the world from every angle.
+
+Optional Features:
+- Dark/light mode toggle
+- User avatars (random emoji)
+- Leaderboard of most common vibes
+- Anonymous chat or message board for people with the same vibe
+
+Timeline (24 hours):
+Hours 0–6: Build quiz UI, scoring logic, result mapping
+Hours 6–12: Connect backend, store results, fetch & show real-time stats
+Hours 12–18: Polish UI, add images/GIFs, handle edge cases
+Hours 18–24: Add share buttons, deploy on Netlify/Vercel, write README
+
+End Goal:
+A playful, visually pleasing app that users can enjoy and share in under a minute, while the creator showcases real-time data handling, clean UI, and creative design.
+
